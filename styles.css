@@ -1,8 +1,6 @@
-/*
-
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+#scope-target {
+  box-shadow: 0 0 0 2px color-mix(in oklab, hsl(var(--accent-h), var(--accent-s), var(--accent-l)) 25%, var(--background-modifier-border-focus));
+}
+#scope-target.has-focus {
+  box-shadow: 0 0 0 2px color-mix(in oklab, hsl(var(--accent-h), var(--accent-s), var(--accent-l)), var(--background-modifier-border-focus));
+}
